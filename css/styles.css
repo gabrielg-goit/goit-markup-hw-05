@@ -129,7 +129,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--ocean);
+  background-color: var(--corn);
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0;
   cursor: pointer;
