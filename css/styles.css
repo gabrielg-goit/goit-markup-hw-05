@@ -137,6 +137,7 @@ ul {
 .modal-btn:hover,
 .modal-btn:focus {
   background-color: var(--ocean);
+  fill: var(--white);
 }
 
 .close {
@@ -183,7 +184,7 @@ ul {
 }
 
 .nav-link {
-  color: var(--navy-blue);
+  /* color: var(--navy-blue); */
   font-size: 16px;
   padding: 24px 0;
   font-weight: 500;
@@ -192,7 +193,7 @@ ul {
   text-align: left;
   /* align-items: center; */
   position: relative;
-  /* color: var(--ocean); */
+  color: var(--ocean);
   /* margin-top: 30px; */
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
