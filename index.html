@@ -4,11 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studio</title>
-    <!-- <link 
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,50 +22,54 @@
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./images/icons.svg" />
   </head>
-  <body>
+  <body class="page-dimensions">
     <!-- Headers Section -->
     <header class="top-head">
       <div class="container">
-        <nav class="navig">
-          <!-- Logo -->
-          <a class="logo" href="./index.html"
-            >Web<span class="logo-studio-dark">Studio</span>
-          </a>
-          <ul class="top-line list">
-            <li>
-              <a class="index link cls-link abs-link" href="./index.html"
-                >Studio</a
-              >
-            </li>
-            <li>
-              <a class="index link cls-link" href="./portfolio.html"
-                >Portfolio</a
-              >
-            </li>
-            <li><a class="index link cls-link" href="">Contacts</a></li>
-          </ul>
-        </nav>
-        <!-- Contact section -->
-        <address>
-          <ul class="top-line list">
-            <li>
-              <a class="contact cls-link link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li>
-              <a class="contact cls-link link" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
-        </address>
+        <div class="container-one">
+          <nav class="navig">
+            <!-- Logo -->
+            <a class="logo" href="./index.html"
+              >Web<span class="logo-studio-dark">Studio</span>
+            </a>
+            <ul class="top-line-one list">
+              <li>
+                <a class="index link cls-link abs-link" href="./index.html"
+                  >Studio</a
+                >
+              </li>
+              <li>
+                <a class="index link cls-link" href="./portfolio.html"
+                  >Portfolio</a
+                >
+              </li>
+              <li><a class="index link cls-link" href="">Contacts</a></li>
+            </ul>
+          </nav>
+          <!-- Contact section -->
+          <address>
+            <ul class="top-line-two list">
+              <li>
+                <a
+                  class="contact cls-link link"
+                  href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a class="contact cls-link link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
       </div>
     </header>
 
     <main>
       <!-- Heros section -->
-      <section class="first heroi">
+      <section class="second first heroi">
         <div class="container">
           <h1 class="title section-title">
             Effective Solutions for Your Business
@@ -75,7 +81,7 @@
       </section>
 
       <!-- Feature section-->
-      <section class="second first-row">
+      <section class="first-row">
         <div class="container">
           <h2 class="visually-hidden">Studio</h2>
           <ul class="list first-row-list">
