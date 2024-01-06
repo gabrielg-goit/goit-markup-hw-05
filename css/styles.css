@@ -18,10 +18,6 @@
   box-sizing: border-box;
 }
 
-div {
-  display: block;
-}
-
 html {
   scroll-behavior: smooth;
 }
@@ -179,7 +175,7 @@ ul {
   gap: 40px;
 }
 
-.container-one {
+.topdiv {
   display: flex;
   justify-content: space-between;
   /* width: 1158px;
